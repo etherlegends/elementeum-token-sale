@@ -16,11 +16,11 @@ contract ElementeumTokenSale is RefundableCrowdsale {
   uint256 public maxContribution = 100 ether;  
 
   // Exchange rates for each phase of the token sale
-  uint256 public quintessenceRate = 2000 wei;  // 1 ETH = 1200 ELET
-  uint256 public fireRate         = 1800 wei; // 1 ETH = 1000 ELET 
-  uint256 public waterRate        = 1600 wei; // 1 ETH =  900 ELET 
-  uint256 public airRate          = 1400 wei; // 1 ETH =  800 ELET 
-  uint256 public earthRate        = 1200 wei; // 1 ETH =  700 ELET 
+  uint256 public quintessenceRate = 2000 wei;  
+  uint256 public fireRate         = 1800 wei; 
+  uint256 public waterRate        = 1600 wei; 
+  uint256 public airRate          = 1400 wei; 
+  uint256 public earthRate        = 1200 wei; 
 
   // Duration of each phase of the token sale
   uint256 public rateQuintessenceEnd = 14 days; // 14 Days
